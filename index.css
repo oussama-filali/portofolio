@@ -1,0 +1,125 @@
+/* Ajouter une image de fond à toute la page */
+body {
+    background-image: url('code-583073_1280.webp');  /* Remplacez par le chemin de votre image */
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    color: #f3cc0a;  /* Assurez-vous que le texte soit visible sur le fond */
+    font-family: Arial, sans-serif;
+
+
+
+}
+/* Personnalisation de la photo de profil */
+.profile-photo img {
+    width: 150px;  /* Taille de l'image */
+    height: 150px; /* Taille de l'image */
+    object-fit: cover; /* S'assurer que l'image garde son rapport de forme */
+    border-radius: 50%;  /* Rendre l'image ronde */
+    border: 5px solid #f2ae26;  /* Bordure autour de l'image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre pour donner un effet de profondeur */
+}
+
+/* Personnalisation de la boîte de présentation */
+.presentation-box {
+    background-color: #c49fe9; /* Fond blanc */
+    border: 1px solid #ddd; /* Bordure grise autour de la boîte */
+    border-radius: 15px; /* Coins arrondis */
+    padding: 30px; /* Espacement intérieur de la boîte */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Ombre portée douce */
+}
+
+/* Personnalisation du titre dans la boîte de présentation */
+.presentation-box h2 {
+    font-family: 'Roboto', sans-serif;  /* Utilisation de la police Roboto */
+    color: #333;  /* Couleur du texte */
+    font-size: 2rem;  /* Taille du texte */
+    font-weight: bold;
+}
+
+/* Personnalisation du texte dans la boîte de présentation */
+.presentation-box p {
+    font-family: 'Arial', sans-serif;  /* Police claire */
+    color: #555;  /* Gris pour le texte */
+    font-size: 1.2rem;
+    line-height: 1.6;  /* Espacement entre les lignes */
+}
+
+/* Personnalisation de la section principale */
+.container {
+    margin-top: 50px;
+}
+
+.row {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;  /* Changer la police */
+    color: #f3f2ef;  /* Couleur du texte */
+    text-align: center;  /* Centrer le texte */
+    font-size: 3rem;  /* Ajuster la taille */
+    font-weight: bold;  /* Rendre le texte plus épais */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);  /* Ajouter une ombre */
+}
+h2 {
+    font-family: 'Roboto', sans-serif;  /* Changer la police */
+    color: #f3f2ef;  /* Couleur du texte */
+    text-align: left;  /* Centrer le texte */
+    font-size: 1.5rem;  /* Ajuster la taille */
+}
+
+p {
+    font-family: 'Roboto', sans-serif;  /* Changer la police */
+    color: #f3f2ef;  /* Couleur du texte */
+}
+
+
+/* Personnalisation du header */
+header {
+    background-color: #f2ae26;  /* Fond sombre pour le header */
+    color: #f49b26;
+}
+.container-fluid {
+    max-width: 1200px;
+    color: #c49fe9;
+}
+
+/* Personnalisation de la section des recettes */
+#recettes-container {
+    background-image: url('');  /* Image de fond pour les recettes */
+    background-size: cover;
+    background-position: center center;
+    padding: 50px 0;  /* Espacement autour de la section */
+}
+
+/* Personnalisation du footer */
+footer {
+    background-color: #c49fe9;  /* Fond sombre pour le footer */
+    color: #c49fe9;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 5px 0;
+    font-size: 1rem;
+    color:#c49fe9
+}
+
+/* Personnalisation des cartes */
+.card {
+    border-radius: 15px;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body .btn {
+    border-radius: 20px;
+}
+
